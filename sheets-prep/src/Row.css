@@ -1,0 +1,14 @@
+.row-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
+
+.text-wrapper, .stars-wrapper {
+    width: 50%;
+}
+
+.text, .stars {
+    float: left;
+}
