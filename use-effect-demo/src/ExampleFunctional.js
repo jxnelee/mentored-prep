@@ -13,9 +13,10 @@ export default function ExampleFunctional() {
 
         // componentWillUnmount functionality
         return function cleanup() {
+            document.title = `You clicked ${count} times`; 
             alert("bye")
         }
-    }, [])
+    }, [count]) //runs the function when count CHANGES
 
     return (
         <div>
